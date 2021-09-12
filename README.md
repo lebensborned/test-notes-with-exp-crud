@@ -1,4 +1,4 @@
-# kode-task
+# USAGE: go run cmd/main.go
 
 GET: /note/all - получить список всех заметок.
 
@@ -11,3 +11,5 @@ POST: /note/add - добавить заметку. В тело запроса н
 {"value":"test", "expiration":100}
 
 DELETE: /note/delete/ID - удалить заметку по ее ID'у.
+
+
